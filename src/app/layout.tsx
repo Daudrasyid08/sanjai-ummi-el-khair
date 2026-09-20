@@ -14,6 +14,12 @@ export const metadata: Metadata = {
     description:
       "Oleh-oleh khas Padang Panjang, Sumatera Barat. Aneka keripik dan cemilan untuk oleh-oleh.",
     type: "website",
+    images: [
+      {
+        url: "/images/Kadai-Muko.jpg",
+        alt: "Kadai Sanjai Ummi El Khair",
+      },
+    ],
   },
   robots: {
     index: true,
