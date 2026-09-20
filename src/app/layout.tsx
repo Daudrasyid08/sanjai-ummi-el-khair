@@ -7,7 +7,14 @@ export const metadata: Metadata = {
     template: "%s | Sanjai Ummi El Khair",
   },
   applicationName: "Sanjai Ummi El Khair",
-  description: "Sanjai Ummi El Khair — oleh-oleh khas Padang Panjang, Sumatera Barat.",
+  description:
+    "Sanjai Ummi El Khair — oleh-oleh khas Padang Panjang, Sumatera Barat.",
+  openGraph: {
+    title: "Sanjai Ummi El Khair",
+    description:
+      "Oleh-oleh khas Padang Panjang, Sumatera Barat. Aneka keripik dan cemilan untuk oleh-oleh.",
+    type: "website",
+  },
   robots: {
     index: true,
     follow: true,
