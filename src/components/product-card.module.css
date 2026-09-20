@@ -1,0 +1,65 @@
+.card {
+  min-width: 0;
+}
+
+.image {
+  position: relative;
+  height: 255px;
+  overflow: hidden;
+  background: #eee9df;
+}
+
+.coverImage {
+  object-fit: cover;
+  transition: transform 500ms ease;
+}
+
+.card:hover .coverImage {
+  transform: scale(1.025);
+}
+
+.copy {
+  padding: 14px 2px 20px;
+}
+
+.copy h3 {
+  margin: 0;
+  font-size: 1.12rem;
+  letter-spacing: -0.045em;
+  line-height: 1.2;
+}
+
+.category {
+  margin: 7px 0 0;
+  color: var(--muted);
+  font-size: 0.76rem;
+  letter-spacing: 0.01em;
+}
+
+.size {
+  margin: 5px 0 0;
+  color: var(--ink);
+  font-size: 0.82rem;
+  font-weight: 500;
+}
+
+.description {
+  margin: 7px 0 0;
+  color: var(--muted);
+  font-size: 0.83rem;
+  line-height: 1.5;
+}
+
+.card:not(:has(.image)) {
+  border-top: 1px solid var(--line);
+}
+
+.card:not(:has(.image)) .copy {
+  padding-top: 16px;
+}
+
+@media (max-width: 900px) {
+  .image {
+    height: 230px;
+  }
+}
